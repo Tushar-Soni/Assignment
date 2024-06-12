@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+    background-image: url(https://image.lexica.art/full_webp/43cb6923-89ba-48e9-9f16-e0398e69d757);
+    
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    width: auto;
+    height: auto;
+    font-size: 58px;
+    font-style: italic;
+    color: rgb(23,149,226);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h2{
+    color: rgb(0, 25, 164);
+    /* color: rgb(175, 216, 255); */
+}
+
+.fram{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 350px;
+    font-size: 28px;
+
+}
+
+.Ui{
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 24px;
+
+    flex-direction: column;
+    /* font-family: "Gloria Hallelujah", cursive; */
+    font-family: "Tourney", sans-serif;
+
+}
+
+.Ui a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.Ui a:hover{
+    color: rgb(23,149,226);
+}
+
+@media (max-width : 480px) {
+    .main-container{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .fram{
+        flex-direction: column;
+        gap: 10px;
+    }
+    h1{
+
+        text-align: center;
+        padding: 10px;
+    }
+
+    .Ui{
+        text-align: center;
+        padding: 40px;
+        
+    }
+    
+    
+}
+
+
